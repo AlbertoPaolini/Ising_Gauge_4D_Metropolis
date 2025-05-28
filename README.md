@@ -60,7 +60,7 @@ The code will ask the following input:
 - The initial β-value.
 - The final β-value.
 - The range β-values where you are interested in taking more measurements. We will to this range as "high-density range".
-- How many measurements you are interested in taking out of the high-density range. The suggestion is to take at least 2 measurements, in order to have the lattice properly thermalized when the range of interest is reached.
+- The number of measurements you want to take outside the high-density range. The suggestion is to take at least 2 measurements, in order to have the lattice properly thermalized before reaching the range of interest.
 - How many measurements you are interested in taking in the high-density range.
 - How many iterations are you interested to perform in the measurements out of the high-density range.
 - How many iterations are you interested to perform in the high-density range.
