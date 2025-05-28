@@ -38,7 +38,7 @@ The Metropolis algorithm is as follows:
 - plaquette4Random_creation: Initialize the plaquettes in the initial random-configuration
 - sum_all_plaquettes: This function sum all the plaquettes of the lattice.
 - minimize4_energy: Perform the Metropolis algorithm.
-- Wilson: Compute the rectangular Wilson loops. These loops have area RxT, with R = [3 , 4] and T = [1, 2, ..., Wilson_lenght]. In a lattice L^3 x L_t, where L_t is the small side, Wilson_lenght is L/2 if L is even, and (L_1)/2 if L is odd.
+- Wilson: Compute the rectangular Wilson loops. These loops have area RxT, with R = [3 , 4] and T = [1, 2, ..., Wilson_lenght]. In a lattice L^3 x Lt, where Lt is the small side, Wilson_lenght is L/2 if L is even, and (L-1)/2 if L is odd.
 - Polyakov: Compute the Polyakov loop.
 
 ## Output
