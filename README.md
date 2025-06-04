@@ -42,7 +42,7 @@ The Metropolis algorithm is as follows:
 - Polyakov: Compute the Polyakov loop.
 
 ## Output
-Three folders are generated from the simulation, one for the values of the density of interna energy (i.e. the average value of the plaquettes), one for the average value of the Polyakov loops and one for the Wilson loops. All the data-points are collected in the Metropolis process, thus must be uncorrelated using the blocking method. The python codes BlockingE.py, BlockingP.py and BlockingW.py perform the blocking method for, respectively, the energy, the Polyakov loop and the Wilson loops.
+Three folders are generated from the simulation, one for the values of the density of interna energy (i.e. the average value of the plaquettes), one for the average value of the Polyakov loops and one for the Wilson loops. All the data-points are collected in the Metropolis process, thus must be uncorrelated using the blocking method. The python codes BlockingE.py and BlockingP.py perform the blocking method for, respectively, the energy, the Polyakov loop and the Wilson loops.
 
 ## How to launch the simulation
 Open the terminal in folder where there is the code, so use the command
